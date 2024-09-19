@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center">REGISTRATION FORM</h1>
+                    <div class="form-group">
+                        <label for="name">firstname:</label>
+                        <input type="text" class="form-control" placeholder="ENTER YOUR NAME" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="fathername">LastNAME:</label>
+                        <input type="text" class="form-control" placeholder="ENTER YOUR LastNAME" id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" class="form-control" placeholder="ENTER YOUR EMAIL" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password:</label>
+                        <input type="password" class="form-control" placeholder="ENTER YOUR Password" id="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">CNIC:</label>
+                        <input type="text" class="form-control" placeholder="ENTER YOUR CNIC" id="cnic">
+                    </div>
+                    <div class="form-group">
+                    <div class="form-group">
+                        <label>USERTYPE:</label>
+                        <input  class="form-control" type="text"  id="userType" placeholder="Enter userType(student OR admin only)">
+                    </div>
+                    <button type="submit" onclick="register()" class="btn btn-primary btn-block">REGISTER</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/js/registration.js"></script>
+</body>
+</html>
